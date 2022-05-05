@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./pageInicial.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Boletim Online</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftContainer">
+            <div>
+                <img src="/images/logo.png">
+            </div>
+            <div id="inputs">
+                <input required type="email" id="icon" placeholder="E-mail">
+                <input required type="password" id="icon2" placeholder="********">
+            </div>
+            <div id="buttons">
+                <button onclick="login()">Acessar</button>
+                <a href="">
+                    <p>Recuperar a senha</p>
+                </a>
+            </div>
+        </div>
+        <div id="rightContainer">
+            <img src="./images/shot-cropped-1560799479333.webp">
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="./pageInicial.js"></script>
+</body>
+
+</html>

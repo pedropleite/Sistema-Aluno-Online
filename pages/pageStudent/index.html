@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/pageStudent/pageStudent.css">
+    <title>Área do aluno</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <span>Área do aluno |<a onclick="logout()"> Sair</span></a>
+        </div>
+        <div>
+            <h1>URCA</h1>
+        </div>
+    </header>
+    <nav>
+        <div id="containerNavUser">
+            <input type="image" src="./images/user (1).png">
+        </div>
+        <div id="containerNavText">
+            <span>Olá, aluno(a)</span>
+        </div>
+        <div id="containerNavInputs" class="informations">
+            <div>
+                <input type="image" src="./images/cadastro.png" id="register">
+                <span>Cadadastrar|Remover Aluno</span>
+            </div>
+            <div>
+                <input type="image" src="./images/lista-de-controle.png" id="activity">
+                <span>Material e atividades</span>
+            </div>
+            <div>
+                <input type="image" src="./images/marca-de-selecao.png" id="miss">
+                <span>Faltas</span>
+            </div>
+            <div>
+                <input type="image" src="./images/premio.png" id="results">
+                <span>Notas</span>
+            </div>
+            <div>
+                <input type="image" src="./images/alert.png" id="warning">
+                <span>Advertências</span>
+            </div>
+        </div>
+        <div id="layersInputs">
+            <div id="missLayer">
+                <input type="image" id="closeMissLayer"
+                    src="./images/black-resourcesforbitches-black-x-removebg-preview.png">
+                <div id="headerMiss" class="miss">
+                    <span>Disciplinas</span>
+                    <span>1°Bimestre</span>
+                    <span>2°Bimestre</span>
+                    <span>3°Bimestre</span>
+                    <span>4°Bimestre</span>
+                </div>
+                <div class="miss">
+                    <span>História</span>
+                    <span class="faltah1">0</span>
+                    <span class="faltah2">0</span>
+                    <span class="faltah3">0</span>
+                    <span class="faltah4">0</span>
+                </div>
+                <div class="miss">
+                    <span>Ciência</span>
+                    <span class="faltac1">0</span>
+                    <span class="faltac2">0</span>
+                    <span class="faltac3">0</span>
+                    <span class="faltac4">0</span>
+                </div>
+                <div class="miss">
+                    <span>Português</span>
+                    <span class="faltap1">0</span>
+                    <span class="faltap2">0</span>
+                    <span class="faltap3">0</span>
+                    <span class="faltap4">0</span>
+                </div>
+                <div class="miss">
+                    <span>Matemática</span>
+                    <span class="faltam1">0</span>
+                    <span class="faltam2">0</span>
+                    <span class="faltam3">0</span>
+                    <span class="faltam4">0</span>
+                </div>
+                <div class="miss">
+                    <span>Geografia</span>
+                    <span class="faltag1">0</span>
+                    <span class="faltag2">0</span>
+                    <span class="faltag3">0</span>
+                    <span class="faltag4">0</span>
+                </div>
+            </div>
+            <div id="activityLayer">
+                <input type="image" id="closeActivityLayer"
+                    src="./images/black-resourcesforbitches-black-x-removebg-preview.png">
+                <p>Materiais e atividades:</p>
+                <div id="activityHeader">
+                    <span>MATERIA</span>
+                    <span>ATIVIDADE</span>
+                    <span>LINKS</span>
+                </div>
+            </div>
+            <div id="resultsLayer">
+                <input type="image" id="closeResultsLayer"
+                    src="./images/black-resourcesforbitches-black-x-removebg-preview.png">
+                <div id="headerResults" class="results">
+                    <span>Disciplinas</span>
+                    <span>1°Bimestre</span>
+                    <span>2°Bimestre</span>
+                    <span>3°Bimestre</span>
+                    <span>4°Bimestre</span>
+                </div>
+                <div class="results">
+                    <span>História</span>
+                    <span class="notah1">0</span>
+                    <span class="notah2">0</span>
+                    <span class="notah3">0</span>
+                    <span class="notah4">0</span>
+                </div>
+                <div class="results">
+                    <span>Ciência</span>
+                    <span class="notac1">0</span>
+                    <span class="notac2">0</span>
+                    <span class="notac3">0</span>
+                    <span class="notac4">0</span>
+                </div>
+                <div class="results">
+                    <span>Português</span>
+                    <span class="notap1">0</span>
+                    <span class="notap2">0</span>
+                    <span class="notap3">0</span>
+                    <span class="notap4">0</span>
+                </div>
+                <div class="results">
+                    <span>Matemática</span>
+                    <span class="notam1">0</span>
+                    <span class="notam2">0</span>
+                    <span class="notam3">0</span>
+                    <span class="notam4">0</span>
+                </div>
+                <div class="results">
+                    <span>Geografia</span>
+                    <span class="notag1">0</span>
+                    <span class="notag2">0</span>
+                    <span class="notag3">0</span>
+                    <span class="notag4">0</span>
+                </div>
+            </div>
+            <div id="warningLayer">
+                <input type="image" id="closeWarningLayer"
+                    src="./images/black-resourcesforbitches-black-x-removebg-preview.png">
+                <p>Advertências:</p>
+                <div id="warningHeader">
+                    <span>MATERIA</span>
+                    <span>ADVERTÊNCIA</span>
+                    <span>LINK ASSINATURA</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        <script src="../../pageInicial.js"></script>
+        <script src="./scripts/faltasAluno.js"></script>
+        <script src="./scripts/atividadeAluno.js"></script>
+        <script src="./scripts/notasAluno.js"></script>
+        <script src="./scripts/advertênciaAluno.js"></script>
+        <script src="./pageStudent.js"></script>
+    </nav>
+</body>
+
+</html>
