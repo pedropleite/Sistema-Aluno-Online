@@ -46,7 +46,7 @@ function checkEmail() {
 
 function logout() {
     auth.signOut()
-    location.href = "./index.html"
+    location.href = "../../index.html"
     localStorage.removeItem("email")
 }
 
