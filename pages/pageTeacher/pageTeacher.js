@@ -25,7 +25,7 @@ document.querySelector("#submitWarning").addEventListener("click", createWarning
 
 function logout() {
     auth.signOut()
-    location.href = "../../index.htmll"
+    location.href = "../../index.html"
 }
 
 function checkOptions() {
