@@ -6,7 +6,7 @@
 <br>
 
 # Sobre esse projeto
-<p>Controle acadêmico desenvolvido para acesso de alunos e professores da Universidade URCA. Através deste, é possível implementação/consulta de notas, faltas, ocorrências e atividades, além do cadastro ou exclusão de usuários. Tecnologias utilizadas: HTML, CSS, JS e Firebase (Authentication & Database).</p>
+<p>Controle acadêmico desenvolvido para acesso de alunos e professores da Universidade URCA. Através deste, é possível implementação/consulta de notas, faltas, ocorrências e atividades, além do cadastro ou exclusão de usuários.</p>
 <p>Caso queira testar o site, <a href="https://pedropleite.github.io/Sistema-Aluno-Online/">clique aqui</a>.</p>
 <br> 
 
